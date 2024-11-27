@@ -99,3 +99,62 @@ nav a {
         transform: translateY(0px);
     }
 }
+/* Media Queries untuk Responsivitas */
+/* Media Queries untuk Responsivitas */
+@media (max-width: 768px) {
+    .hero {
+        padding: 10px 5%;
+    }
+
+    .content h1 {
+        font-size: 50px;
+    }
+
+    .content p {
+        font-size: 18px;
+    }
+
+    .content .btn {
+        padding: 12px 60px;
+        font-size: 14px;
+    }
+
+    .feature-img {
+        width: 280px;
+        right: 5%;
+    }
+
+    nav {
+        flex-direction: column; 
+        align-items: center;    
+        width: 100%;           
+
+    nav ul {
+        flex-direction: column;
+        align-items: center;     
+        padding: 0;            
+
+    nav li {
+        margin: 10px 0; 
+    }
+}
+
+@media (max-width: 480px) {
+    .content h1 {
+        font-size: 36px;
+    }
+
+    .content p {
+        font-size: 16px;
+    }
+
+    .content .btn {
+        padding: 10px 40px;
+        font-size: 12px;
+    }
+
+    .feature-img {
+        width: 220px;
+        right: 2%;
+    }
+}
