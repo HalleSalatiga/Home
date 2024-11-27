@@ -34,6 +34,12 @@ nav ul {
 nav li {
     margin: 0 15px; 
 }
+nav ul li :hover{
+    background-color: #393232;
+    border-radius: 8px;
+    padding: 10px 20px;
+    color: #fff;
+}
 nav a {
     text-decoration: none;
     color: #000000;
